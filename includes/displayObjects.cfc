@@ -20,7 +20,7 @@ component persistent="false" accessors="true" output="false" extends="mura.plugi
 
 	public any function dspMuraFusebox($) {
 		var local = {};
-		return getApplication().doAction('public:main.default');
+		return getApplication().doAction('some.action');
 
 	}
 

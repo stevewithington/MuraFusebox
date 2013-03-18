@@ -6,14 +6,6 @@ Copyright 2013 Stephen J. Withington, Jr.
 Licensed under the Apache License, Version v2.0
 http://www.apache.org/licenses/LICENSE-2.0
 
-	NOTES: 
-		Edit the setSessionCache() method to alter the 'expires' key.
-		Defaults to 1 hour. The sessionCache will also expire
-		if the application has been reloaded.
-
-		See /includes/displayObjects.cfc && /includes/eventHandler.cfc
-		on how to access these methods.
-
 */
 component persistent="false" accessors="true" output="false" extends="includes.fusebox.Application" {
 
